@@ -41,6 +41,7 @@ html {
     border-radius: 0.8rem;
     border: none;
     outline: none;
+    cursor: pointer;
 }
 
 .section-description {
@@ -183,6 +184,7 @@ html {
 
 /* banner section end  */
 /* Popular Tours section start  */
+/* this section styles share with a simple perfect place section  */
 .tours-container {
     display: flex;
     justify-content: space-between;
@@ -333,6 +335,81 @@ html {
     font-weight: bold;
     line-height: 4rem;
     margin-bottom: 3rem;
+}
+
+/* subscribe section start  */
+.subscribe-contianer {
+    display: flex;
+    gap: 2.4rem;
+    justify-content: center;
+    align-items: center;
+}
+
+.subscribe-image {
+    width: 50%;
+}
+
+.subscribe-form {
+    width: 50%;
+    padding: 3rem;
+    border: 1px solid #FF5400;
+    border-radius: 1.6rem;
+}
+
+.subscribe-title {
+    font-size: 2.4rem;
+    font-weight: bolder;
+    margin-bottom: 2rem;
+}
+
+.subscribe-form>input {
+    outline: none;
+    border: none;
+    width: 100%;
+    font-size: 1.6rem;
+    margin-bottom: 1.7rem;
+    padding: 2.4rem 2rem;
+    background-color: rgba(19, 19, 24, 0.05);
+    border-radius: 1rem;
+}
+
+.subscribe-btn {
+    width: 100%;
+}
+
+.subscribe-image {
+    position: relative;
+}
+
+.subscribe-image>img {
+    width: 100%;
+}
+
+.subscribe-label-content {
+    color: white;
+    background-color: #FF5400;
+    border-radius: 1rem;
+    max-width: 32rem;
+    max-height: 12rem;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    transform: rotate(-30deg);
+    position: absolute;
+    bottom: 7rem;
+    right: 0rem;
+    padding: 3.5rem;
+}
+
+.subscribe-label-title {
+    font-size: 3.2rem;
+    font-weight: bolder;
+}
+
+.subscribe-label-miniT {
+    font-size: 2rem;
 }
 
 /* responsive for mobile device  */
@@ -527,7 +604,43 @@ html {
         line-height: 2rem;
     }
 
+    /* subscribe section start  */
+    .subscribe-contianer {
+        flex-direction: column;
+    }
 
+    .subscribe-image {
+        width: 100%;
+    }
+
+    .subscribe-form {
+        width: 100%;
+
+    }
+
+
+    .subscribe-image {
+        position: relative;
+    }
+
+
+    .subscribe-label-content {
+        max-width: 60%;
+        max-height: 8rem;
+        transform: rotate(-30deg);
+        position: absolute;
+        bottom: 5rem;
+        right: 0rem;
+    }
+
+    .subscribe-label-title {
+        font-size: 2rem;
+        font-weight: bolder;
+    }
+
+    .subscribe-label-miniT {
+        font-size: 1.4rem;
+    }
 }
 
 /* responsive for tablet device */
@@ -718,6 +831,45 @@ html {
         line-height: 4rem;
     }
 
+
+    /* subscribe section start  */
+    .subscribe-contianer {
+        flex-direction: column;
+    }
+
+    .subscribe-image {
+        width: 80%;
+    }
+
+    .subscribe-form {
+        width: 80%;
+
+    }
+
+
+    .subscribe-image {
+        position: relative;
+    }
+
+
+    .subscribe-label-content {
+        max-width: 60%;
+        max-height: 8rem;
+        transform: rotate(-30deg);
+        position: absolute;
+        bottom: 5rem;
+        right: 0rem;
+    }
+
+    .subscribe-label-title {
+        font-size: 2rem;
+        font-weight: bolder;
+    }
+
+    .subscribe-label-miniT {
+        font-size: 1.4rem;
+    }
+
 }
 
 
@@ -819,6 +971,41 @@ html {
         font-weight: bold;
         line-height: 4rem;
         margin-bottom: 3rem;
+    }
+
+    
+    /* subscribe section start  */
+    .subscribe-image {
+        width: 50%;
+    }
+.subscribe-image>img{
+height: 40rem;
+}
+    .subscribe-form {
+        width: 50%;
+      
+    }
+    .subscribe-image {
+        position: relative;
+    }
+
+ 
+    .subscribe-label-content {
+        max-width: 60%;
+        max-height: 8rem;
+        transform: rotate(-30deg);
+        position: absolute;
+        bottom: 5rem;
+        right: 0rem;
+    }
+
+    .subscribe-label-title {
+        font-size: 2rem;
+        font-weight: bolder;
+    }
+
+    .subscribe-label-miniT {
+        font-size: 1.4rem;
     }
 
 }
