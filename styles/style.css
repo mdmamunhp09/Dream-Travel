@@ -279,6 +279,46 @@ html {
     margin: 3rem auto;
 }
 
+/* Deals & Discounts section start  */
+.deails-card {
+    background-color: rgba(255, 255, 255, 0.8);
+    max-width: 58rem;
+    border-radius: 1.5rem;
+    padding: 5rem 5rem 5rem 7.7rem;
+}
+
+#deals-card-1 {
+    background-image: url(../Images/discount.png);
+    margin-left: auto;
+}
+
+.deals-card-common {
+    background-size: cover;
+    padding: 5.6rem;
+    border-radius: 1.6rem;
+    margin-bottom: 2.4rem;
+}
+
+#deals-content-1 {
+    margin-left: auto;
+}
+
+#deals-card-2 {
+    background-image: url(../Images/Group\ 40.png);
+}
+
+#deals-card-3 {
+    margin-left: auto;
+}
+
+.details-shor-line {
+    display: flex;
+    gap:3rem;
+}
+.deals-btn{
+    display: flex;
+    justify-content: center;
+}
 
 /* responsive for mobile device  */
 @media screen and (max-width:576px) {
@@ -291,6 +331,7 @@ html {
 
     .navbar .nav-logo .nav-title {
         font-size: 2rem;
+
     }
 
     .navbar .nav-logo {
@@ -438,6 +479,39 @@ html {
     .row-2 {
         width: 100%;
     }
+
+
+    /* deals and discount section start  */
+    .deals-title {
+        font-size: 3rem;
+        margin-bottom: 1rem;
+        line-height: 4rem;
+    }
+
+    .deails-card {
+        max-width: 100%;
+        padding: 2rem;
+        text-align: center;
+    }
+
+    .deals-card-common {
+        padding: 18rem 1.6rem 1rem 1.6rem;
+        margin-bottom: 2rem;
+    }
+
+    .deals-card-desc {
+        font-size: 1.4rem;
+        line-height: 2rem;
+        margin-bottom: 1rem;
+    }
+
+    .price {
+        font-size: 2rem;
+        margin-top: 0rem;
+        line-height: 2rem;
+    }
+
+
 }
 
 /* responsive for tablet device */
@@ -597,6 +671,38 @@ html {
         margin: 2rem auto;
     }
 
+    /* deals and discount section start  */
+    .deails-card {
+        padding: 4rem;
+        text-align: center;
+        margin: 0 auto;
+        max-width: 45rem;
+    }
+
+    .deals-card-common {
+        padding: 18rem 1.6rem 1rem 1.6rem;
+        margin-bottom: 3rem;
+    }
+
+    .deals-card-desc {
+        font-size: 1.4rem;
+        line-height: 2rem;
+        margin-bottom: 1rem;
+    }
+
+    .price {
+        font-size: 2rem;
+        margin-top: 0rem;
+        line-height: 2rem;
+    }
+
+    .deals-title {
+        font-size: 4rem;
+        margin-bottom: 1rem;
+        line-height: 4rem;
+    }
+
+
 }
 
 
@@ -674,6 +780,16 @@ html {
 
     .last-item-2 {
         flex: 2;
+    }
+
+    /* Deals & Discounts section start  */
+    .deails-card {
+        max-width: 50rem;
+        padding: 4rem 4rem 4rem 6.7rem;
+    }
+
+    .deals-card-common {
+        padding: 10rem 4rem;
     }
 
 }
