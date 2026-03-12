@@ -313,11 +313,26 @@ html {
 
 .details-shor-line {
     display: flex;
-    gap:3rem;
+    gap: 3rem;
 }
-.deals-btn{
+
+.deals-btn {
     display: flex;
     justify-content: center;
+}
+
+/* perfect place section start  */
+.perfect-place-list {
+    font-size: 1.6rem;
+    line-height: 3rem;
+    margin-bottom: 3rem;
+}
+
+.perfect-place-title {
+    font-size: 4rem;
+    font-weight: bold;
+    line-height: 4rem;
+    margin-bottom: 3rem;
 }
 
 /* responsive for mobile device  */
@@ -413,6 +428,7 @@ html {
     .tours-container {
         padding: 0 2rem;
         flex-direction: column;
+        text-align: center;
     }
 
     .tour-list {
@@ -702,7 +718,6 @@ html {
         line-height: 4rem;
     }
 
-
 }
 
 
@@ -790,6 +805,20 @@ html {
 
     .deals-card-common {
         padding: 10rem 4rem;
+    }
+
+    /* perfect-place start  */
+    .perfect-place-list {
+        font-size: 1.6rem;
+        line-height: 3rem;
+        margin-bottom: 3rem;
+    }
+
+    .perfect-place-title {
+        font-size: 4rem;
+        font-weight: bold;
+        line-height: 4rem;
+        margin-bottom: 3rem;
     }
 
 }
