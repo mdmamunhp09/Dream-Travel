@@ -192,6 +192,63 @@ html {
     width: 100%;
 }
 
+/* your destination section start  */
+.destination-container {
+    padding: 0 13rem;
+}
+
+.destination-content {
+    text-align: center;
+    max-width: 60.43rem;
+    margin: 0 auto;
+}
+
+.collage-flex {
+    display: flex;
+    gap: 1rem;
+}
+
+.relative-position {
+    position: relative;
+}
+
+.flex-college-item {
+    width: 50%;
+}
+
+.college-img {
+    width: 100%;
+    display: block;
+    height: 30rem;
+}
+
+.collage-title {
+    position: absolute;
+    font-size: 2.8rem;
+    color: white;
+    font-weight: bolder;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.collage-2 {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    margin-top: 2.4rem;
+    margin-bottom: 2.4rem;
+    gap: 1rem;
+}
+
+
+.last-item-1 {
+    flex-grow: 1;
+}
+
+.last-item-2 {
+    flex-grow: 3;
+}
+
 
 /* responsive for mobile device  */
 @media screen and (max-width:576px) {
@@ -311,7 +368,39 @@ html {
         width: 100%;
     }
 
+    /* choose your destination section start  */
+    .destination-container {
+        padding: 0 2rem;
+    }
 
+    .destination-description {
+        margin-top: 0;
+    }
+
+    .destination-title {
+        font-size: 2rem;
+        margin-bottom: 0;
+    }
+
+    .collage-flex {
+        flex-direction: column;
+    }
+
+
+    .flex-college-item {
+        width: 100%;
+    }
+
+
+    .collage-2 {
+        grid-template-columns: repeat(1, 1fr);
+        margin-top: 2rem;
+        margin-bottom: 2rem;
+    }
+
+    .north-title {
+        text-align: center;
+    }
 }
 
 /* responsive for tablet device */
@@ -426,7 +515,50 @@ html {
         width: 100%;
     }
 
+
+
+    /* choose your destination section start  */
+    .destination-container {
+        padding: 0 2rem;
+    }
+
+    .destination-description {
+        margin-top: 0;
+    }
+
+    .destination-title {
+        font-size: 3rem;
+        margin-bottom: 0;
+    }
+
+    .flex-college-item {
+        width: 100%;
+    }
+
+
+    .collage-2 {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .collage-2 .relative-position:nth-child(3) {
+        left: 50%;
+    }
+
+    .north-title {
+        text-align: center;
+    }
+
+    .last-item-1 {
+        flex: 1
+    }
+
+    .last-item-2 {
+        flex: 1;
+    }
+
 }
+
+
 
 /* responsive for laptop  */
 @media screen and (min-width:992px) and (max-width:1200px) {
@@ -444,7 +576,7 @@ html {
     }
 
 
-     /* popular tour section start  */
+    /* popular tour section start  */
     .tours-container {
         padding: 0 6rem;
         justify-content: center;
@@ -477,4 +609,32 @@ html {
     .tours-image .tours-img {
         width: 100%;
     }
+
+    /* destination section start  */
+
+    .destination-container {
+        padding: 0 6rem;
+    }
+
+    .north-title {
+        text-align: center;
+    }
+
+    .collage-2 {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        margin-top: 2.4rem;
+        margin-bottom: 2.4rem;
+        gap: 1rem;
+    }
+
+
+    .last-item-1 {
+        flex: 1;
+    }
+
+    .last-item-2 {
+        flex: 2;
+    }
+
 }
