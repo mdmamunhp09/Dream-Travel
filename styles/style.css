@@ -55,6 +55,24 @@ html {
     margin-right: 1.5rem;
 }
 
+.section-content {
+    text-align: center;
+    max-width: 60.43rem;
+    margin: 0 auto;
+}
+
+.container {
+    padding: 0 13rem;
+}
+
+.card-title {
+    font-size: 2.4rem;
+    font-weight: bolder;
+    margin-bottom: 1.4rem;
+    margin-top: 3rem;
+}
+
+
 
 /* header section start  */
 /* nav section start  */
@@ -111,6 +129,7 @@ html {
     font-weight: bold;
 }
 
+
 /* nav section end  */
 /* banner secton start  */
 .banner {
@@ -124,10 +143,6 @@ html {
     justify-content: center;
     align-items: center;
     text-align: center;
-}
-
-.banner-container {
-    padding: 0 13rem;
 }
 
 .banner-content {
@@ -169,7 +184,6 @@ html {
 /* banner section end  */
 /* Popular Tours section start  */
 .tours-container {
-    padding: 0 13rem;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -193,16 +207,6 @@ html {
 }
 
 /* your destination section start  */
-.destination-container {
-    padding: 0 13rem;
-}
-
-.destination-content {
-    text-align: center;
-    max-width: 60.43rem;
-    margin: 0 auto;
-}
-
 .collage-flex {
     display: flex;
     gap: 1rem;
@@ -247,6 +251,32 @@ html {
 
 .last-item-2 {
     flex-grow: 3;
+}
+
+/* why choose us section start  */
+.card {
+    background-color: rgba(251, 181, 99, 0.05);
+    border-radius: 1.6rem;
+    padding: 3.2rem 3.2rem 3.2rem 5.5rem;
+}
+
+#card-2 {
+    background-color: rgba(41, 206, 246, 0.05);
+}
+
+#card-3 {
+    background-color: rgba(233, 68, 68, 0.05);
+}
+
+.row-1 {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 2.4rem;
+}
+
+.row-2 {
+    width: 49%;
+    margin: 3rem auto;
 }
 
 
@@ -300,7 +330,7 @@ html {
 
 
     /* responsive for banner section  */
-    .banner-container {
+    .container {
         padding: 0 2rem;
     }
 
@@ -369,9 +399,7 @@ html {
     }
 
     /* choose your destination section start  */
-    .destination-container {
-        padding: 0 2rem;
-    }
+
 
     .destination-description {
         margin-top: 0;
@@ -400,6 +428,15 @@ html {
 
     .north-title {
         text-align: center;
+    }
+
+    /* why choose us section designed */
+    .row-1 {
+        grid-template-columns: 1fr;
+    }
+
+    .row-2 {
+        width: 100%;
     }
 }
 
@@ -453,7 +490,7 @@ html {
 
 
     /* responsive for banner section  */
-    .banner-container {
+    .container {
         padding: 0 2rem;
     }
 
@@ -518,9 +555,7 @@ html {
 
 
     /* choose your destination section start  */
-    .destination-container {
-        padding: 0 2rem;
-    }
+
 
     .destination-description {
         margin-top: 0;
@@ -556,6 +591,12 @@ html {
         flex: 1;
     }
 
+    /* why choose us section start  */
+    .row-2 {
+        width: 49%;
+        margin: 2rem auto;
+    }
+
 }
 
 
@@ -571,7 +612,7 @@ html {
     }
 
     /* responsive for banner section  */
-    .banner-container {
+    .container {
         padding: 0 6rem;
     }
 
@@ -612,9 +653,7 @@ html {
 
     /* destination section start  */
 
-    .destination-container {
-        padding: 0 6rem;
-    }
+
 
     .north-title {
         text-align: center;
